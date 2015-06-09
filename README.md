@@ -31,7 +31,7 @@ threads = (1..10).map do |number|
 		
 Целта на тези 20 реда код е да намери всички забранени и сочени от забранени точки. При срещане на забранена точка всички номера след нея се записват в array bad_trajectories.
 
-first.each do |first_num|
+		first.each do |first_num|
 			second_num = second[i]
 			index = f_hash[second_num]
 			path << first[i] if !bad_trajectories.include?(first[i])
